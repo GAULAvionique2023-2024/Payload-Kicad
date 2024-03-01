@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Payload")
+    (rev "0")
+    (company "GAUL")
+  )
+
   (lib_symbols
   )
 

@@ -1,8 +1,14 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid aca2bea9-8454-4eb0-9313-98875a21552f)
+  (uuid 39d2fcd8-a273-4eec-8456-aa506097edc4)
 
   (paper "A4")
+
+  (title_block
+    (title "Payload")
+    (rev "0")
+    (company "GAUL")
+  )
 
   (lib_symbols
   )
