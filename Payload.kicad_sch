@@ -1149,6 +1149,23 @@
     )
   )
 
+  (sheet (at 16.51 97.79) (size 15.24 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cba3ce0c-3e16-4728-8bae-0b865cb9d57d)
+    (property "Sheetname" "MPU" (at 16.51 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MPU.kicad_sch" (at 16.51 111.0746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Payload"
+        (path "/5f62c44b-34ee-4720-b187-b4a520863a8a" (page "5"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
