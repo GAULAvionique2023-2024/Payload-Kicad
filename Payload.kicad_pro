@@ -462,8 +462,18 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -487,7 +497,7 @@
     ],
     [
       "b731aecd-8fa5-4432-90a5-bb6d0ae39f62",
-      "Vbuck"
+      "circuit_camera"
     ],
     [
       "cba3ce0c-3e16-4728-8bae-0b865cb9d57d",
