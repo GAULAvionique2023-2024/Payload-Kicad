@@ -1591,7 +1591,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid d2eaaac2-39ee-4a28-b27e-d0d342478815))
-    (pin "" (uuid d2eaaac2-39ee-4a28-b27e-d0d342478815))
+    (pin "" (uuid d2eaaac2-39ee-4a28-b27e-d0d342478816))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -1744,7 +1744,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid 4bf47d67-008d-4083-a750-0b97478713f6))
-    (pin "" (uuid 4bf47d67-008d-4083-a750-0b97478713f6))
+    (pin "" (uuid 4bf47d67-008d-4083-a750-0b97478713f7))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -2796,7 +2796,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid 74a2675b-bde7-41df-afb6-661aa47bb027))
-    (pin "" (uuid 74a2675b-bde7-41df-afb6-661aa47bb027))
+    (pin "" (uuid 74a2675b-bde7-41df-afb6-661aa47bb028))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -3039,7 +3039,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid 34f073fa-a97b-447b-821e-2457cf105b50))
-    (pin "" (uuid 34f073fa-a97b-447b-821e-2457cf105b50))
+    (pin "" (uuid 34f073fa-a97b-447b-821e-2457cf105b51))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -3169,7 +3169,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid efd843fa-560b-444b-9809-60bb88b6137e))
-    (pin "" (uuid efd843fa-560b-444b-9809-60bb88b6137e))
+    (pin "" (uuid efd843fa-560b-444b-9809-60bb88b6137f))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -3448,7 +3448,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid 72e2a993-98e5-484d-93ba-d66edf3c210d))
-    (pin "" (uuid 72e2a993-98e5-484d-93ba-d66edf3c210d))
+    (pin "" (uuid 72e2a993-98e5-484d-93ba-d66edf3c210e))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
