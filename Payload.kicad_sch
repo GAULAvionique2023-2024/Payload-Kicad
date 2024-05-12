@@ -796,6 +796,11 @@
     (uuid d974f307-b3e7-45a6-bfb0-33efb67ba72c)
   )
 
+  (text "https://www.st.com/content/ccc/resource/technical/document/application_note/group0/13/c0/f6/6c/29/3b/47/b3/DM00315319/files/DM00315319.pdf/jcr:content/translations/en.DM00315319.pdf"
+    (at 113.03 142.24 0)
+    (effects (font (size 0.5 0.5) (color 255 0 226 1)) (justify left bottom))
+    (uuid 4e0311ba-4346-4ddd-9e0f-3952556a023c)
+  )
   (text "ADC3: PF7 et PF9 pour vibromètres" (at 49.53 130.81 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 56599547-8986-476a-880a-9d36b994c428)
@@ -813,9 +818,24 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 67ee0403-a3c5-4e7d-8232-d6bb3b624e34)
   )
+  (text "Il faut définir les pins en accordance avec leur branchement \ntied-up\ntied-down (à utiliser)\npull-up \npull-down"
+    (at 16.51 184.15 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 893396ad-e370-4f9e-b03b-31cfa3ff5864)
+  )
+  (text "Avoid floating unused pin\nDo not leave unused pin floating. Connect it either to ground or to supply on the PCB, or use\nPU / PD. Noise on non-connected input pin is a source of extra consumption by making the\ninput buffer switch randomly.\nIf the application is sensitive to ESD, prefer a connection to ground or define the pin as PP\noutput and drive it to low.\n"
+    (at 115.57 157.48 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9918ce9d-300a-43d1-a1b5-10e356e6b17c)
+  )
   (text "PB15: MOSI, PB14: MISO, PB13: Sck, PB12: NSS" (at 200.66 125.73 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c6a53f65-b848-49cc-b1a3-364ab580c3b8)
+  )
+  (text "to increase EMC performance and avoid extra\npower consumption, unused clocks, counters \nor I/Os, should not be left free. I/Os should\nbe connected to a fixed logic level of 0 or 1\nby an external or internal pull-up or pull-down\n on the unused I/O pin. The other option is to \nconfigure GPIO as output mode using software."
+    (at 123.19 138.43 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f3d31736-c2d0-4eb9-bba9-dbf43da13697)
   )
 
   (global_label "ADC2_PC1" (shape input) (at 257.81 36.83 0) (fields_autoplaced)
@@ -953,8 +973,8 @@
     (property "Datasheet" "~" (at 63.5 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 29e1e5ec-82eb-47fe-944c-a88a30a43369))
     (pin "1" (uuid 4c5a3186-741d-4f67-a663-6277b8c6123d))
+    (pin "2" (uuid 29e1e5ec-82eb-47fe-944c-a88a30a43369))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a"
@@ -1005,8 +1025,8 @@
     (property "Datasheet" "~" (at 265.43 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a722d912-5b31-460e-a38a-2eb212de6f25))
     (pin "1" (uuid d615c733-7810-469a-88c0-70dd0dbf7dec))
+    (pin "2" (uuid a722d912-5b31-460e-a38a-2eb212de6f25))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a"
@@ -1199,8 +1219,8 @@
     (property "Datasheet" "~" (at 254 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0675c685-559d-4b01-ae38-7bea5b5b5d41))
     (pin "1" (uuid c49c163b-d54b-464a-b9f1-12e77ded3e0a))
+    (pin "2" (uuid 0675c685-559d-4b01-ae38-7bea5b5b5d41))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a"
@@ -1225,8 +1245,8 @@
     (property "Datasheet" "~" (at 182.88 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 30824f8c-a891-4c9e-9d41-87188bce7ee3))
     (pin "1" (uuid 45a9b06a-a3b3-43fe-b27f-5b25cf7df9c2))
+    (pin "2" (uuid 30824f8c-a891-4c9e-9d41-87188bce7ee3))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a"
@@ -1251,8 +1271,8 @@
     (property "Datasheet" "~" (at 58.42 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid bc460af9-505b-40cb-a259-977ff8f5e927))
     (pin "1" (uuid 7577579d-420c-4a91-be5d-4677932b5ecc))
+    (pin "2" (uuid bc460af9-505b-40cb-a259-977ff8f5e927))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a"
@@ -1471,8 +1491,8 @@
     (property "Datasheet" "~" (at 181.61 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6a494f67-ce4c-4443-b5fa-759ab42c6127))
     (pin "1" (uuid 6e974cbf-2ee4-4c3c-99e8-50d3a2536680))
+    (pin "2" (uuid 6a494f67-ce4c-4443-b5fa-759ab42c6127))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a"
@@ -1523,8 +1543,8 @@
     (property "Datasheet" "~" (at 69.85 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c3fedd6c-dc05-4985-bae0-4b1eb13a5784))
     (pin "1" (uuid dfe9397d-1104-4419-9074-91274ad7e90a))
+    (pin "2" (uuid c3fedd6c-dc05-4985-bae0-4b1eb13a5784))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a"
