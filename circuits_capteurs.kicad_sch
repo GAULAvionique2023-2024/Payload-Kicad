@@ -1590,8 +1590,8 @@
     (property "Datasheet" "" (at 173.99 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid d2eaaac2-39ee-4a28-b27e-d0d342478816))
-    (pin "" (uuid d2eaaac2-39ee-4a28-b27e-d0d342478816))
+    (pin "" (uuid d2eaaac2-39ee-4a28-b27e-d0d342478817))
+    (pin "" (uuid d2eaaac2-39ee-4a28-b27e-d0d342478817))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -1743,8 +1743,8 @@
     (property "Datasheet" "" (at 171.45 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 4bf47d67-008d-4083-a750-0b97478713f7))
-    (pin "" (uuid 4bf47d67-008d-4083-a750-0b97478713f7))
+    (pin "" (uuid 4bf47d67-008d-4083-a750-0b97478713f8))
+    (pin "" (uuid 4bf47d67-008d-4083-a750-0b97478713f8))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -2795,8 +2795,8 @@
     (property "Datasheet" "" (at 160.02 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 74a2675b-bde7-41df-afb6-661aa47bb028))
-    (pin "" (uuid 74a2675b-bde7-41df-afb6-661aa47bb028))
+    (pin "" (uuid 74a2675b-bde7-41df-afb6-661aa47bb029))
+    (pin "" (uuid 74a2675b-bde7-41df-afb6-661aa47bb029))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -3038,8 +3038,8 @@
     (property "Datasheet" "" (at 173.99 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 34f073fa-a97b-447b-821e-2457cf105b51))
-    (pin "" (uuid 34f073fa-a97b-447b-821e-2457cf105b51))
+    (pin "" (uuid 34f073fa-a97b-447b-821e-2457cf105b52))
+    (pin "" (uuid 34f073fa-a97b-447b-821e-2457cf105b52))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -3168,8 +3168,8 @@
     (property "Datasheet" "" (at 160.02 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid efd843fa-560b-444b-9809-60bb88b6137f))
-    (pin "" (uuid efd843fa-560b-444b-9809-60bb88b6137f))
+    (pin "" (uuid efd843fa-560b-444b-9809-60bb88b61380))
+    (pin "" (uuid efd843fa-560b-444b-9809-60bb88b61380))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"
@@ -3447,8 +3447,8 @@
     (property "Datasheet" "" (at 171.45 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 72e2a993-98e5-484d-93ba-d66edf3c210e))
-    (pin "" (uuid 72e2a993-98e5-484d-93ba-d66edf3c210e))
+    (pin "" (uuid 72e2a993-98e5-484d-93ba-d66edf3c210f))
+    (pin "" (uuid 72e2a993-98e5-484d-93ba-d66edf3c210f))
     (instances
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/9c4aec7b-fe88-4cf9-b97d-99cb804ed81c"

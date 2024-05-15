@@ -2522,7 +2522,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid b731aecd-8fa5-4432-90a5-bb6d0ae39f62)
-    (property "Sheetname" "circuit_camera" (at 16.51 74.2184 0)
+    (property "Sheetname" "buck_converter" (at 16.51 74.2184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "circuit_camera.kicad_sch" (at 16.51 89.4846 0)
