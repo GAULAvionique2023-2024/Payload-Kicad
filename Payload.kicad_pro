@@ -389,7 +389,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "GAUL-Empreintes"
+      "GAUL-Empreintes",
+      "Gaul_empreintes_test"
     ],
     "pinned_symbol_libs": [
       "Librairy-symbole",
