@@ -605,7 +605,7 @@
     (property "Value" "0.1uF" (at 160.02 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 162.56 79.0448 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 162.56 79.0448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 80.01 0)
