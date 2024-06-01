@@ -968,6 +968,10 @@
     (stroke (width 0) (type default))
     (uuid 0dabb9da-d2e1-430e-8025-650897df5bcc)
   )
+  (wire (pts (xy 196.85 69.85) (xy 196.85 67.31))
+    (stroke (width 0) (type default))
+    (uuid 17510091-bf8d-40fb-b9cd-2ea664ae4cb3)
+  )
   (wire (pts (xy 100.33 134.62) (xy 100.33 129.54))
     (stroke (width 0) (type default))
     (uuid 1ebd9cf4-1916-401c-a20e-896e66299dc4)
@@ -1052,6 +1056,10 @@
     (stroke (width 0) (type default))
     (uuid 89d5b8f4-3b62-4b96-b5e5-fe5dcb6ccc34)
   )
+  (wire (pts (xy 227.33 69.85) (xy 227.33 67.31))
+    (stroke (width 0) (type default))
+    (uuid 8e4ed5c8-f992-48d5-ab71-5990d35338a5)
+  )
   (wire (pts (xy 111.76 97.79) (xy 123.19 97.79))
     (stroke (width 0) (type default))
     (uuid 90567c78-6692-4a3a-bfef-edf079cf7680)
@@ -1092,6 +1100,10 @@
     (stroke (width 0) (type default))
     (uuid a5e3ed64-c09b-4345-93ed-e3d80c2223ff)
   )
+  (wire (pts (xy 212.09 69.85) (xy 212.09 67.31))
+    (stroke (width 0) (type default))
+    (uuid a6aa99c5-1716-4898-85f4-9eb0c653f1dd)
+  )
   (wire (pts (xy 69.85 175.26) (xy 72.39 175.26))
     (stroke (width 0) (type default))
     (uuid a88f9716-9db8-423b-9571-f2b5a679550f)
@@ -1123,6 +1135,10 @@
   (wire (pts (xy 114.3 129.54) (xy 127 129.54))
     (stroke (width 0) (type default))
     (uuid e05e273c-33be-4fc0-b8e0-9f55fb30ab22)
+  )
+  (wire (pts (xy 182.88 69.85) (xy 182.88 67.31))
+    (stroke (width 0) (type default))
+    (uuid e0d2a058-2f86-4fb7-ad59-66640c35e566)
   )
   (wire (pts (xy 170.18 69.85) (xy 170.18 67.31))
     (stroke (width 0) (type default))
@@ -1388,6 +1404,36 @@
     )
   )
 
+  (symbol (lib_id "GAUL-Symboles:Ground_mounting_hole_1mm") (at 215.9 64.77 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 29a4f264-e29f-4db3-ae9b-be8bbfecbc10)
+    (property "Reference" "H7" (at 218.44 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "~" (at 215.9 64.77 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "GAUL-Empreintes:Ground_mounting_hole_1mm" (at 215.9 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 215.9 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c5a4a6fb-d76c-4da8-8d58-541395569e33))
+    (instances
+      (project "Payload"
+        (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
+          (reference "H7") (unit 1)
+        )
+      )
+      (project "Buck_5V"
+        (path "/b57e233b-724e-41fe-b467-3bde33ee5ca1"
+          (reference "H?") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "GAUL-Symboles:Ground_mounting_hole_1mm") (at 133.35 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c456a75-1d6e-4006-98f4-e92872d2db59)
@@ -1566,6 +1612,36 @@
       (project "Buck_5V"
         (path "/b57e233b-724e-41fe-b467-3bde33ee5ca1"
           (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "GAUL-Symboles:Ground_mounting_hole_1mm") (at 186.69 64.77 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3934c011-9fb1-4b3a-a29f-03b78e051037)
+    (property "Reference" "H5" (at 189.23 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "~" (at 186.69 64.77 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "GAUL-Empreintes:Ground_mounting_hole_1mm" (at 186.69 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 186.69 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4e0216f5-ab82-45bf-b9dd-17882f4c129e))
+    (instances
+      (project "Payload"
+        (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "Buck_5V"
+        (path "/b57e233b-724e-41fe-b467-3bde33ee5ca1"
+          (reference "H?") (unit 1)
         )
       )
     )
@@ -1770,6 +1846,36 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 196.85 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6e79263a-69d0-4dd6-bc90-0ccf59220606)
+    (property "Reference" "#PWR0145" (at 196.85 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 196.85 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 196.85 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 196.85 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d31dd7c8-864c-4dd6-aa46-b3974c3a6354))
+    (instances
+      (project "Payload"
+        (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
+          (reference "#PWR0145") (unit 1)
+        )
+      )
+      (project "Buck_5V"
+        (path "/b57e233b-724e-41fe-b467-3bde33ee5ca1"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "GAUL-Symboles:Ground_mounting_hole_1mm") (at 160.02 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 719e89f7-d6a6-4f1a-bbd4-a54b5f882809)
@@ -1907,6 +2013,36 @@
     )
   )
 
+  (symbol (lib_id "GAUL-Symboles:Ground_mounting_hole_1mm") (at 231.14 64.77 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9cff591e-7184-4de1-a8bf-6871eaf8fc8e)
+    (property "Reference" "H8" (at 233.68 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "~" (at 231.14 64.77 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "GAUL-Empreintes:Ground_mounting_hole_1mm" (at 231.14 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 231.14 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3c97dd9f-2b25-49a8-91c8-5bc906b53d1b))
+    (instances
+      (project "Payload"
+        (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
+          (reference "H8") (unit 1)
+        )
+      )
+      (project "Buck_5V"
+        (path "/b57e233b-724e-41fe-b467-3bde33ee5ca1"
+          (reference "H?") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 166.37 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1748853-5a26-41be-8a25-3ba48ffb35df)
@@ -1953,6 +2089,36 @@
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
           (reference "#PWR0113") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 182.88 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid af072255-cdc0-4f93-8711-26c3ac2072d1)
+    (property "Reference" "#PWR0144" (at 182.88 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 182.88 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 182.88 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 182.88 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 92a1989b-1964-419c-be33-5abc4abd9761))
+    (instances
+      (project "Payload"
+        (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
+          (reference "#PWR0144") (unit 1)
+        )
+      )
+      (project "Buck_5V"
+        (path "/b57e233b-724e-41fe-b467-3bde33ee5ca1"
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2078,6 +2244,36 @@
       (project "Payload"
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
           (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "GAUL-Symboles:Ground_mounting_hole_1mm") (at 200.66 64.77 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c1b155fd-29a8-45de-ba72-ed2b5ab769c8)
+    (property "Reference" "H6" (at 203.2 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "~" (at 200.66 64.77 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "GAUL-Empreintes:Ground_mounting_hole_1mm" (at 200.66 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 200.66 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ce2ab5b0-e89e-412a-8cfb-7d5bbdbd661a))
+    (instances
+      (project "Payload"
+        (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
+          (reference "H6") (unit 1)
+        )
+      )
+      (project "Buck_5V"
+        (path "/b57e233b-724e-41fe-b467-3bde33ee5ca1"
+          (reference "H?") (unit 1)
         )
       )
     )
@@ -2351,6 +2547,66 @@
         )
         (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
           (reference "#PWR0112") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 212.09 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f41e47d1-ad90-4514-aa94-35c89131d3f5)
+    (property "Reference" "#PWR0146" (at 212.09 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 212.09 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 212.09 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 212.09 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fcafd36c-087a-41a2-95d0-0e56d5041b5c))
+    (instances
+      (project "Payload"
+        (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
+          (reference "#PWR0146") (unit 1)
+        )
+      )
+      (project "Buck_5V"
+        (path "/b57e233b-724e-41fe-b467-3bde33ee5ca1"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 227.33 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fc80082b-d613-4563-aec3-24a38d3fdc43)
+    (property "Reference" "#PWR0147" (at 227.33 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 227.33 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 227.33 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 227.33 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7f59fa97-c6d8-42ee-9c56-d453fc0a1b50))
+    (instances
+      (project "Payload"
+        (path "/5f62c44b-34ee-4720-b187-b4a520863a8a/b731aecd-8fa5-4432-90a5-bb6d0ae39f62"
+          (reference "#PWR0147") (unit 1)
+        )
+      )
+      (project "Buck_5V"
+        (path "/b57e233b-724e-41fe-b467-3bde33ee5ca1"
+          (reference "#PWR?") (unit 1)
         )
       )
     )
