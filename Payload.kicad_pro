@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.0,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 1.075
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,35 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|114603000|57549000|e3cc5565-95f9-4ed3-b6cc-4d7f9c1bccff|905e1373-db3a-4519-8232-b6e6d0541e3e",
-        "clearance|114603000|58199000|8c3033ee-7431-4802-b879-9b98fb05c541|e3cc5565-95f9-4ed3-b6cc-4d7f9c1bccff",
-        "clearance|118903000|56609000|3cdfc476-bcbe-41be-ac97-d1e3f6bec0c4|bc43264e-8813-41d4-9585-1d9aa740a9ea",
-        "clearance|118903000|57909000|c5f4dea4-6812-4697-9c08-e49d43240d10|b5801874-1131-48ef-8976-772d1e4d0557",
-        "clearance|125006400|95369400|bb084c3d-55f8-450d-98ad-3a29c16527ec|34ba6d51-393a-477b-a9c7-33d0be5d2696",
-        "clearance|125006400|95769400|34ba6d51-393a-477b-a9c7-33d0be5d2696|fbae18e6-60f7-4d9f-9f04-3889d6a427fb",
-        "clearance|125006400|96169400|fbae18e6-60f7-4d9f-9f04-3889d6a427fb|de2afecd-d8cb-4775-8ad2-0468f6d98cdd",
-        "clearance|125006400|96569400|de2afecd-d8cb-4775-8ad2-0468f6d98cdd|59c53db1-c44f-4d87-aead-0d03c6cf975b",
-        "clearance|125006400|96969400|59c53db1-c44f-4d87-aead-0d03c6cf975b|00ba24cd-3fc4-4084-b30f-1b1fe528b098",
-        "clearance|125006400|97369400|00ba24cd-3fc4-4084-b30f-1b1fe528b098|6f77e877-10c1-4aff-bb84-9333ba8c03ff",
-        "clearance|125134600|95034400|cbe19518-0f1d-4e55-9088-0d6f631b0af7|bb084c3d-55f8-450d-98ad-3a29c16527ec",
-        "clearance|125341400|97497600|6f77e877-10c1-4aff-bb84-9333ba8c03ff|932064e9-f136-4b9d-a33e-7f59155b72c0",
-        "clearance|125534600|95034400|fd698b7f-9a2d-42ef-a1e3-11910f9ae129|cbe19518-0f1d-4e55-9088-0d6f631b0af7",
-        "clearance|125741400|97497600|932064e9-f136-4b9d-a33e-7f59155b72c0|c763d873-cc47-4232-b203-fcdda1c2a71b",
-        "clearance|125934600|95034400|60ef22bc-a06a-4da1-b6ce-adb5eca952b1|fd698b7f-9a2d-42ef-a1e3-11910f9ae129",
-        "clearance|126141400|97497600|c763d873-cc47-4232-b203-fcdda1c2a71b|b1071f15-3365-4bb7-9fa9-2d465a1730ba",
-        "clearance|126334600|95034400|181065e3-474f-4acd-b18e-5b03e49c0bae|60ef22bc-a06a-4da1-b6ce-adb5eca952b1",
-        "clearance|126541400|97497600|b1071f15-3365-4bb7-9fa9-2d465a1730ba|8031f32f-c538-4941-bf58-ac1d2acaa029",
-        "clearance|126734600|95034400|700805a6-c446-46ad-9f05-807d49edf70c|181065e3-474f-4acd-b18e-5b03e49c0bae",
-        "clearance|126941400|97497600|8031f32f-c538-4941-bf58-ac1d2acaa029|9b2e2cca-6a2f-454d-9e0d-4e38efce09a3",
-        "clearance|127134600|95034400|aaf7e7bc-b3aa-4d15-b614-35d98291c206|700805a6-c446-46ad-9f05-807d49edf70c",
-        "clearance|127341400|95034400|aaf7e7bc-b3aa-4d15-b614-35d98291c206|534d9bfb-66fb-483d-a3d3-ab77bf1b550f",
-        "clearance|127341400|97497600|9b2e2cca-6a2f-454d-9e0d-4e38efce09a3|fb8cdb4d-1a42-4e94-8244-70349985504b",
-        "clearance|127469600|95562600|e2d77bc5-ac04-4c9a-885d-bca4d19f5052|534d9bfb-66fb-483d-a3d3-ab77bf1b550f",
-        "clearance|127469600|95962600|cf32760a-2e61-498a-a99e-04d82a6298c6|e2d77bc5-ac04-4c9a-885d-bca4d19f5052",
-        "clearance|127469600|96362600|03154c93-7985-4d79-87c2-2158097b5458|cf32760a-2e61-498a-a99e-04d82a6298c6",
-        "clearance|127469600|97162600|fb8cdb4d-1a42-4e94-8244-70349985504b|4fe92295-191c-4ba1-a4c3-0b769b9f2794"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -125,7 +97,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -452,7 +424,8 @@
   "libraries": {
     "pinned_footprint_libs": [
       "GAUL-Empreintes",
-      "Gaul_empreintes_test"
+      "Gaul_empreintes_test",
+      "Images_pour_pcb"
     ],
     "pinned_symbol_libs": [
       "Librairy-symbole",

@@ -1,0 +1,13 @@
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-F_Cu.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-3V3.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-GND.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-B_Cu.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-F_Paste.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-B_Paste.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-F_Silkscreen.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-B_Silkscreen.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-F_Mask.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-B_Mask.gbr'.
+Plotted to 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-Edge_Cuts.gbr'.
+Création du fichier Gerber "job" 'D:\GAUL_local\2023-2024\repo_git\Payload-Kicad\Payload-job.gbrjob'.
+Info: Fini.
